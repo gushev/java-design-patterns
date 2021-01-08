@@ -1,7 +1,9 @@
-package behavioral.command;
+package behavioral.command.invokers;
+
+import behavioral.command.commands.Command;
 
 // Invoker: A Simple remote control with one button
-class SimpleRemoteControl {
+public class SimpleRemoteControl {
   Command slot;  // only one button
 
   public SimpleRemoteControl() {

@@ -1,7 +1,9 @@
-package behavioral.command;
+package behavioral.command.commands;
+
+import behavioral.command.receivers.Light;
 
 // This is a Command implementation
-class LightOnCommand implements Command {
+public class LightOnCommand implements Command {
   Light light;
 
   public LightOnCommand(Light light) {

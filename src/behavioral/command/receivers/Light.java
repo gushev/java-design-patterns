@@ -1,7 +1,7 @@
-package behavioral.command;
+package behavioral.command.receivers;
 
 // This is our Receiver
-class Light {
+public class Light {
   public void on() {
     System.out.println("Light is on");
   }

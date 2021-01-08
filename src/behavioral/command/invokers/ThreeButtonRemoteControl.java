@@ -1,10 +1,12 @@
-package behavioral.command;
+package behavioral.command.invokers;
+
+import behavioral.command.commands.Command;
 
 // Invoker: Remote control with 3 buttons
-class ThreeButtonRemoteControl {
-  private Command on;
-  private Command off;
-  private Command functionalKey;
+public class ThreeButtonRemoteControl {
+  private final Command on;
+  private final Command off;
+  private final Command functionalKey;
 
   public ThreeButtonRemoteControl(Command on,
                                   Command off,

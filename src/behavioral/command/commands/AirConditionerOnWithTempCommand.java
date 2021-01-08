@@ -1,7 +1,9 @@
-package behavioral.command;
+package behavioral.command.commands;
+
+import behavioral.command.receivers.AirConditioner;
 
 // Concrete command
-class AirConditionerOnWithTempCommand implements Command {
+public class AirConditionerOnWithTempCommand implements Command {
   AirConditioner ac;
 
   public AirConditionerOnWithTempCommand(AirConditioner ac) {

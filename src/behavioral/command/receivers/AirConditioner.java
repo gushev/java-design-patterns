@@ -1,7 +1,7 @@
-package behavioral.command;
+package behavioral.command.receivers;
 
 // Another Receiver
-class AirConditioner {
+public class AirConditioner {
   public void on() {
     System.out.println("AC is on");
   }
