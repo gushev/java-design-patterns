@@ -1,4 +1,4 @@
-# Illustration of the [Command Design Pattern](https://refactoring.guru/design-patterns/command)
+# Illustration of the [Command Design Pattern](https://refactoring.guru/design-patterns/command){:target="_blank"}
 
 The purpose of the Command patterns is to encapsulate the request that is being transfered from the sender to the receiver.
 
