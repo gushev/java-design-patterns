@@ -1,4 +1,4 @@
-# Illustration of the <a href="https://refactoring.guru/design-patterns/strategy" target="_blank">Strategy Design Pattern</a>
+# Illustration of the [Strategy Design Pattern](https://refactoring.guru/design-patterns/strategy)
 
 Strategy lets the algorithm vary independently of clients. This design pattern allows the selection of a specific algorithm at runtime. 
 
