@@ -11,3 +11,20 @@ Advantages:
 ## UML
 
 ![Strategy Design Pattern](command.gif)
+
+## Overview of the example
+
+Invokers(Senders):
+* SimpleRemoteControl - has the ability to hold only a single command. The command is passed through a method.
+* ThreeButtonRemoteControl - can hold 3 commands at a time. They are all passed through the constructor.
+
+Receivers:
+* Light - can be turned on and off 
+* AirConditioner - can be turned on with a specific temperature set and turned off
+
+Commands(Requests):
+* LightOnCommand
+* LightOffCommand
+* AirConditionerOffCommand
+* AirConditionerOnWithTempCommand
+
