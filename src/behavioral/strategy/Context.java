@@ -1,5 +1,7 @@
 package behavioral.strategy;
 
+import behavioral.strategy.strategies.Strategy;
+
 public class Context {
   private final Strategy strategy;
 

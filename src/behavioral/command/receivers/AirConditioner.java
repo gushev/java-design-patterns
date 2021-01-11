@@ -11,7 +11,6 @@ public class AirConditioner {
   }
 
   public void setTemperature(int volume) {
-    System.out.println("Setting the temperature to: "
-      + volume);
+    System.out.println("Setting the temperature to: " + volume);
   }
 }

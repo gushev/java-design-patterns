@@ -11,11 +11,9 @@ import behavioral.command.receivers.Light;
 
 public class Main {
   public static void main(String[] args) {
-    SimpleRemoteControl remote =
-      new SimpleRemoteControl();
+    SimpleRemoteControl remote = new SimpleRemoteControl();
     Light light = new Light();
     AirConditioner ac = new AirConditioner();
-
 
     System.out.println("Example one:");
 
@@ -28,11 +26,11 @@ public class Main {
 
     System.out.println("\nExample two: ");
 
-    ThreeButtonRemoteControl threeButtonRemoteControl = new ThreeButtonRemoteControl(
-      new LightOnCommand(light),
-      new LightOffCommand(light),
-      new AirConditionerOnWithTempCommand(ac)
-    );
+    ThreeButtonRemoteControl threeButtonRemoteControl =
+        new ThreeButtonRemoteControl(
+            new LightOnCommand(light),
+            new LightOffCommand(light),
+            new AirConditionerOnWithTempCommand(ac));
 
     threeButtonRemoteControl.pressOn();
     threeButtonRemoteControl.pressOff();

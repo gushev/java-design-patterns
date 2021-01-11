@@ -8,9 +8,7 @@ public class ThreeButtonRemoteControl {
   private final Command off;
   private final Command functionalKey;
 
-  public ThreeButtonRemoteControl(Command on,
-                                  Command off,
-                                  Command functionalKey) {
+  public ThreeButtonRemoteControl(Command on, Command off, Command functionalKey) {
     this.on = on;
     this.off = off;
     this.functionalKey = functionalKey;

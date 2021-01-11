@@ -1,9 +1,11 @@
-package behavioral.observer;
+package behavioral.observer.subjects;
+
+import behavioral.observer.observers.Observer;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Subject {
+public class ConcreteSubject implements Subject {
   private final List<Observer> observers = new ArrayList<>();
   private int state;
 

@@ -1,4 +1,6 @@
-package behavioral.observer;
+package behavioral.observer.observers;
+
+import behavioral.observer.subjects.Subject;
 
 public class BinaryObserver extends Observer {
 

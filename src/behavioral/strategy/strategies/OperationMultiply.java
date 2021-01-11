@@ -1,4 +1,4 @@
-package behavioral.strategy;
+package behavioral.strategy.strategies;
 
 public class OperationMultiply implements Strategy {
   @Override
