@@ -4,4 +4,4 @@ Builder is a creational design pattern that lets you construct complex objects s
 
 ## UML
 
-![Builder Design Pattern](builder.jpg)
+![Builder Design Pattern](builder.gif)
