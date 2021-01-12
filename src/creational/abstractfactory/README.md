@@ -4,4 +4,4 @@ Abstract Factory is a creational design pattern that lets you produce families o
 
 ## UML
 
-![Factory Method Design Pattern](abstract_factory.png)
+![Abstract Factory Design Pattern](abstract_factory.png)
